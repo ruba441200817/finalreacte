@@ -1,0 +1,63 @@
+.ul-list{
+  display: flex;
+
+  justify-content: space-around; 
+  
+  padding: 5px;
+  background-color:darkgray;
+  color: azure;
+  font-style:italic;
+}
+.c p {
+ display: block;
+ 
+  color: blue;
+}
+
+
+ul{
+  display: flex;
+  gap: 20px;
+  margin-top: 0%;
+  margin-right: 2px;
+}
+li{
+
+  list-style: none;
+}
+
+
+
+.ul-list ul {
+ display: flex;
+  text-align:left;
+}
+/* corss   */
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+img{
+  width: 60%;
+  margin: 10%;
+}
+.foteer{
+  background-color:blueviolet;
+  padding: 5px;
+  color: white;
+}
+.foteer i{
+ font-size: small;
+text-align:right;
+
+  color: aquamarine;
+}
+p{
+  text-align: center;
+}
+a{
+  color: whitesmoke;
+  
+}
